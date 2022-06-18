@@ -1,0 +1,40 @@
+{
+  "name": "node-api-template",
+  "version": "1.0.0",
+  "description": "A simple startup package for nodejs Applications",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha --recursive --exit",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Daemonicc/Node-api-template.git"
+  },
+  "author": "Igunnu Emmanuel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Daemonicc/Node-api-template/issues"
+  },
+  "homepage": "https://github.com/Daemonicc/Node-api-template#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "chai": "^4.3.6",
+    "colors": "^1.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-mongo-sanitize": "^2.2.0",
+    "express-rate-limit": "^6.4.0",
+    "helmet": "^5.1.0",
+    "hpp": "^0.2.3",
+    "jsonwebtoken": "^8.5.1",
+    "mocha": "^10.0.0",
+    "moment": "^2.29.3",
+    "mongodb-memory-server": "^8.6.1",
+    "mongoose": "^6.3.8",
+    "morgan": "^1.10.0",
+    "supertest": "^6.2.3",
+    "xss-clean": "^0.1.1"
+  }
+}
