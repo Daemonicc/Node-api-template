@@ -29,7 +29,10 @@ exports.register = asyncHandler(async (req, res, next) => {
 });
 
 exports.google = asyncHandler(async (req, res, next) => {
-  res.send(getGoogleAuthURL());
+  res.status(200).json({
+    success: true,
+    url: getGoogleAuthURL(),
+  });
 });
 
 exports.google_profile = asyncHandler(async (req, res, next) => {
