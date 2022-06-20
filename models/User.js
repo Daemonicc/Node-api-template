@@ -31,6 +31,9 @@ const UserSchema = new mongoose.Schema({
     type: String,
     unique: [true, "Username already in use"],
   },
+  google_id: {
+    type: String,
+  },
   createdAt: {
     type: Date,
     default: Date.now,
